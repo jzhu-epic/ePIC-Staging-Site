@@ -1,0 +1,103 @@
+html * {
+    font-family: 'Fira Sans Condensed', sans-serif;
+  }
+  .headingfont {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 4rem;
+  }
+  .newsfont {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 2rem;
+  }
+  .promote {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 8rem;
+  }
+  .promote-small {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 6rem;
+  }
+  .epicBlue {
+    color: #1B1D4D !important;
+  }
+  .epicBlue_bg {
+    background-color: #1B1D4D !important;
+  }
+  .epicWhite_bg {
+    background-color: white !important;
+  }
+  .epicYellow_bg {
+    background-color: #FEDA00 !important;
+  }
+  .epicYellow {
+    color: #FEDA00 !important;
+  }
+  .ct-series-a .ct-bar {
+    /* Set the colour of this series line */
+    stroke: #FEDA00;
+    /* Control the thikness of your lines */
+    stroke-width: 10px;
+  }
+  .ct-series-a .ct-point {
+    /* Colour of your points */
+    stroke: #FEDA00;
+    /* Size of your points */
+    stroke-width: 0px;
+  }
+  .logo {}
+  .p_ani {
+    border-right: solid 3px #1B1D4D;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  /* Animation */
+  .p_ani {
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
+  }
+  /* text animation */
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 760px;
+    }
+  }
+  .floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+  .shape {
+    position: relative;
+    height: 20vh;
+    width: 40vw;
+    background: tomato;
+  }
+  .shape:after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    right: 0px;
+    top: 20vh;
+    border-width: 10vh 20vw;
+    border-style: solid;
+    border-color: tomato tomato rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  }
+  /* cursor animations */
+
+ 
